@@ -1,0 +1,57 @@
+
+<div id="flashholder">
+
+	<style type="text/css">
+
+		#flashholder {
+	
+			font-family: Arial, sans-serif;
+			font-size: 0.8em;
+
+   		 	text-align: left;
+
+		}
+
+		#flashzoom {
+
+			width: 580px;
+			height: 580px;
+
+		}
+
+		#flashcontent {
+
+			padding-top: 20px;
+			width: 580px;
+
+		}
+		
+		object, embed {
+
+			outline: 0;
+
+		} 
+		
+	</style>
+
+	<script src="swfobject.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var flashvars = {};
+		var params = {};
+		params.scale = "noScale";
+		params.menu = "false";
+		params.bgcolor = "#FFFFFF";
+		params.allowFullScreen = "true";
+		params.allowScriptAccess = "always";
+		var attributes = {};
+		attributes.id = "verb";
+		swfobject.embedSWF("phrasalVerbsOneBase.swf", "flashcontent", "100%", "100%", "9.0.28", null, flashvars, params, attributes);
+	</script>
+
+	<div id="flashzoom">
+
+		<div id="flashcontent">Our game is optimised for Flash-enabled desktop browsers, so you'll need to <noscript>enable Javascript and </noscript>download the latest <a href="http://www.adobe.com/go/getflash/" target="_blank">Flash Player</a> to play.</div>
+
+	</div>
+
+</div>
